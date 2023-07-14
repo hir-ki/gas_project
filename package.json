@@ -1,0 +1,27 @@
+{
+    "name": "typescript-node-eslint",
+    "version": "1.0.0",
+    "description": "typescript project template for node.js",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint ./src/*",
+        "build": "tsc",
+        "start": "ts-node src/index.ts"
+    },
+    "keywords": [
+        "typescript",
+        "eslint",
+        "node"
+    ],
+    "devDependencies": {
+        "@types/google-apps-script": "^1.0.64",
+        "@types/node": "^20.2.5",
+        "@typescript-eslint/eslint-plugin": "^5.61.0",
+        "@typescript-eslint/parser": "^5.61.0",
+        "eslint": "^8.44.0",
+        "eslint-config-prettier": "^8.8.0",
+        "prettier": "^3.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    }
+}
